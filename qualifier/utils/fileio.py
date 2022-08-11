@@ -29,6 +29,9 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
+#Bug from version 1.0 fixed
+#Issue was that I did not write the code to loop and write the qualifying
+#loans for the list of qualifying loans
 
 def save_csv(output_path, qualifying_loans):
 

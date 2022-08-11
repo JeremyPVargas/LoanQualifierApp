@@ -1,15 +1,5 @@
 # Loan Qualifier App - Ver 1.2
 
-<!-- Find and Replace All [repo_name] -->
-<!-- Replace [product-screenshot] [product-url] -->
-<!-- Other Badgets https://naereen.github.io/badges/ -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-<!-- [![License][license-shield]][license-url] -->
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -25,10 +15,11 @@
     <li>
       <a href="#technologies">Technologies</a>
       <ul>
-        <li><a href="#python]">Python</a></li>
+        <li><a href="#python">Python</a></li>
         <li><a href="#libraries">Libraries</a></li>
       </ul>
     </li>
+    <li><a href="#version-release">Version Release</a></li>
     <li><a href="#installation-guide">Installation Guide</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributors">Contributors</a></li>
@@ -78,11 +69,11 @@ The lending criteria uses the borrower's "credit score", "loan amount", and the 
 ## Installation Guide
 
 1. Clone the file from GIT
-2. Save the file to a filder
+2. Save the file to a folder that you can find easily
 3. Install libraries and packages
 
     ## Python Fire: 
-    is a library for automatically generating command line interfaces (CLIs) for any Pyhon object.
+    Fire is a library for automatically generating command line interfaces (CLIs) for any Pyhon object.
     See more information here
     
         https://github.com/google/python-fire
@@ -91,18 +82,46 @@ The lending criteria uses the borrower's "credit score", "loan amount", and the 
 
         Install Python Fire with pip, run: 
         pip install fire
-    
+
+        When installed, the terminal should return something similar to:
+      ![LoanQualifyingFire](./images/fire.png)
+
     ## Python Questionary: 
         pip intall questionary
-
+      
+      When installed, the terminal should return something similar to:
+      ![LoanQualifyQuestionary](./images/questionary.png)
 4. Run the application
 
+
+---
+<!--Version Release -->
+## Version Release
+
+### Version 1.2 has corrected the bug
+
+![LoanQualifyingBugFix](./images/bug_fixed.png)
 
 ---
 <!--Usage -->
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+### Sample - Borrower qualifies for loans:
+
+![LoanQualifyingAppimage](./images/loan_app_works.png)
+
+
+
+### Sample - Borrower does not qualify for any loan:
+
+![LoanQualifyingAppimage2](./images/loan_app_no_loan.png)
+
+
+
+### Output file containing qualifying loans should look like this:
+
+![LoanQualifyingAppimage1](./images/loan_app_file_saved.png)
+
 
 ---
 <!--Contributors -->
@@ -116,7 +135,7 @@ Jeremy Vargas
     linkedin: https://www.linkedin.com/in/jeremyvargas/
 
 UW FinTech Bootcamp
-- Instructors and TA's
+- Instructors and TA's (Charles Xia)
 - Startup code provided by institution
 
 ---
@@ -136,27 +155,8 @@ The Software is provided “as is”, without warranty of any kind, express or i
 ---
 <!--Aknowledgements -->
 ## Aknowledgements
-* [Img Shields](https://shields.io)
-* [Mark Down Guide](https://www.markdownguide.org/basic-syntax/#reference-style-links)
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax/#reference-style-links)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/JeremyPvargas/LoanQualifierApp.svg?style=for-the-badge
-[contributors-url]: https://github.com/JeremyPvargas/LoanQualifierApp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JeremyPvargas/LoanQualifierApp.svg?style=for-the-badge
-[forks-url]: https://github.com/JeremyPvargas/LoanQualifierApp/network/members
-[stars-shield]: https://img.shields.io/github/stars/JeremyPvargas/LoanQualifierApp.svg?style=for-the-badge
-[stars-url]: https://github.com/JeremyPvargas/LoanQualifierApp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/JeremyPvargas/LoanQualifierApp/network/members?style=for-the-badge
-[issues-url]: https://github.com/JeremyPVargas/LoanQualifierApp/issues
-<!-- [license-shield]: 
-[license-url]:  -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/jeremyvargas/
-
-
-[confirm-screenshot]: /images/confirm.JPG
-[qualifiedloan-screenshot]: /images/qualified_loan.JPG
-[unqualifiedloan-screenshot]: /images/unqualified_loan.JPG
-[entername-screenshot]: /images/enter_name.JPG
