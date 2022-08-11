@@ -1,0 +1,15 @@
+    1  source C:/Users/reson/anaconda3/Scripts/activate base
+    2  C:/Users/reson/anaconda3/python.exe c:/Users/reson/Desktop/Module2Challenge/loan_qualifier_app/app.py
+    3  git config--global user.email"jeremypvargas@gmail.com"
+    4  git config --global user.email"jeremypvargas@gmail.com"
+    5  git push
+    6  git add
+    7  git clone"git@github.com:JeremyPVargas/LoanQualifierApp.git"
+    8  git config --global user.email"jeremypvargas@gmail.com"
+    9  git commit -m"added python file"
+   10  git add.
+   11  git add
+   12  git --help
+   13  git push
+   14  git add.
+   15  history 50 > terminal_history.txt
